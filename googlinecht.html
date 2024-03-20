@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<title>LineChartID60384c7b56f</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<style type="text/css">
+body {
+  color: #444444;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 75%;
+  }
+  a {
+  color: #4D87C7;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+ <!-- LineChart generated in R 4.1.2 by googleVis 0.7.1 package -->
+<!-- Wed Mar 20 14:30:15 2024 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataLineChartID60384c7b56f () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"Hybrid",
+55
+],
+[
+"SUV",
+16.1
+],
+[
+"Sedan",
+21.08396947
+],
+[
+"Sports",
+18.40816327
+],
+[
+"Truck",
+16.5
+],
+[
+"Wagon",
+21.1
+] 
+];
+data.addColumn('string','country');
+data.addColumn('number','avgmpg');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartLineChartID60384c7b56f() {
+var data = gvisDataLineChartID60384c7b56f();
+var options = {};
+options["allowHtml"] = true;
+options["width"] = 500;
+options["height"] = 300;
+
+
+    var chart = new google.visualization.LineChart(
+    document.getElementById('LineChartID60384c7b56f')
+    );
+    chart.draw(data,options);
+    
+
+}
+  
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "corechart";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID60384c7b56f);
+})();
+function displayChartLineChartID60384c7b56f() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID60384c7b56f"></script>
+ 
+<!-- divChart -->
+  
+<div id="LineChartID60384c7b56f" 
+  style="width: 500; height: 300;">
+</div>
+ <div><span>Data: data &#8226; Chart ID: <a href="Chart_LineChartID60384c7b56f.html">LineChartID60384c7b56f</a> &#8226; <a href="https://mages.github.io/googleVis/">googleVis-0.7.1</a></span><br /> 
+<!-- htmlFooter -->
+<span> 
+  R version 4.1.2 (2021-11-01) 
+  &#8226; <a href="https://developers.google.com/terms/">Google Terms of Use</a> &#8226; <a href="https://developers.google.com/chart/interactive/docs/gallery/linechart">Documentation and Data Policy</a>
+</span></div>
+</body>
+</html>
