@@ -8,7 +8,21 @@ web html graphics and charts with free r googlevis package
        2. us map
        3. line plot
        4. blank ascii map of us
+       
+You need to download to view (i could not get any of the github options to work htmlpreview, ctl=shift-V, varous hackers)
 
+https://tinyurl.com/bdcp5wx6  (line chart)
+https://github.com/rogerjdeangelis/utl-web-html-graphics-and-charts-with-free-r-googlevis-package/blob/main/googlinecht.html
+
+https://tinyurl.com/35akpty7 (org cjart)
+https://github.com/rogerjdeangelis/utl-web-html-graphics-and-charts-with-free-r-googlevis-package/blob/main/googorgcht.html
+
+https://tinyurl.com/4ytxedc9 (map)
+https://github.com/rogerjdeangelis/utl-web-html-graphics-and-charts-with-free-r-googlevis-package/blob/main/googusmap.html
+
+github
+https://tinyurl.com/mve958jj
+https://github.com/rogerjdeangelis/utl-web-html-graphics-and-charts-with-free-r-googlevis-package
 github
 https://tinyurl.com/mve958jj
 https://github.com/rogerjdeangelis/utl-web-html-graphics-and-charts-with-free-r-googlevis-package
